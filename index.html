@@ -40,9 +40,27 @@
 			<p>Note: young people are less vulnerable and have a lower chance of dying, including kids.</p>
 			<div id="piechart"></div>
 
+<div id="piechart"></div>
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-			
-<script type="text/javascript" src="node.js"></script>
+
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Cases/Deaths', 'Hours per Day'],
+  ['Cases', 30340],
+  ['Deaths', 389]
+]);
+
+  var options = {'title':'Cases and Deaths', 'width':550, 'height':400};
+
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
 
 
 	</body>
