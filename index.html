@@ -51,11 +51,17 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['Cases/Deaths', 'Hours per Day'],
-  ['Cases', 30340],
-  ['Deaths', 389]
+  ['Cases - New York', 15168],
+  ['Cases - Wahington', 1793],
+  ['Cases - California', 1543],
+  ['Cases - New Jersey', 1336],
+  ['Cases - Louisiana', 837],
+  ['Cases - Other', 9663],
+  ['Deaths - New York', 114],
+  ['Deaths - Other', 275]
 ]);
 
-  var options = {'title':'Cases and Deaths', 'width':550, 'height':400};
+  var options = {'title':'Cases and Deaths', 'width':1000, 'height':1000};
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
