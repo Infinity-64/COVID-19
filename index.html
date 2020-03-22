@@ -38,6 +38,27 @@
 						</ul>
 				</ul>
 			<p>Note: young people are less vulnerable and have a lower chance of dying, including kids.</p>
-			
+			<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Cases/Deaths', 'Number of deaths'],
+  ['Cases', 30289],
+  ['Deaths', 389],
+]);
+
+  var options = {'title':'COVID-19 cases and deaths', 'width':550, 'height':400};
+
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
 		</body>
 	</html>
