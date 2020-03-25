@@ -3,8 +3,9 @@
 	<html>
 		<head>
 			<meta charset ="utf-8">
-			<title>COVID-19 - U.S.</title>
-			 <link href = "stylesheet.css" rel = "stylesheet" />
+			<title>COVID-19</title>
+			<link href = "stylesheet.css" rel = "stylesheet" />
+			background-color: black;
 		</head>
 		<body>
 			<h1>COVID-19</h1><tr>
@@ -72,7 +73,7 @@ function drawChart() {
   ['Deaths - Other', 522]
 ]);
 
-  var options = {'title':'Cases and Deaths', 'width':1000, 'height':1000};
+  var options = {'title':'Cases and Deaths - U.S.', 'width':1000, 'height':1000};
 
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
