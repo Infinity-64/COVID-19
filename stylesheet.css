@@ -22,21 +22,21 @@ h6 {
 }
 
 .red {
-  color: gray;
+  color: #181818;
   background-color: tomato;
   padding: 20px;
   margin: 20px;
 }
 
 .blue {
-  color: gray;
+  color: #181818;
   background-color: powderblue;
   padding: 20px;
   margin: 20px;
 }
 
 .yellow {
-  color: gray;
+  color: #181818;
   background-color: yellow;
   padding: 20px;
   margin: 20px;
