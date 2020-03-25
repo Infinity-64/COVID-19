@@ -22,16 +22,22 @@ h6 {
 }
 
 .red {
-  color: black;
+  color: white;
   background-color: tomato;
+  padding: 20px;
+  margin: 20px;
 }
 
 .blue {
-  color: green;
+  color: white;
   background-color: powderblue;
+  padding: 20px;
+  margin: 20px;
 }
 
 .yellow {
-  color: blue;
+  color: white;
   background-color: yellow;
+  padding: 20px;
+  margin: 20px;
 }
