@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   background-color: blue;
   height: fit-content;
-  width: fit-content;
+  width: 100vw;
 }
 
 p {
