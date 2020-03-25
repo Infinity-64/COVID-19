@@ -8,6 +8,8 @@ h1 {
   font-weight: 300;
   text-align: center;
   background-color: blue;
+  height: fit-content;
+  width: fit-content;
 }
 
 p {
