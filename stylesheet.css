@@ -3,7 +3,7 @@
 }
 
 h1 {
-  color: red;
+  color: white;
   padding: 15px;
   font-weight: 300;
   text-align: center;
@@ -22,21 +22,21 @@ h6 {
 }
 
 .red {
-  color: grey;
+  color: gray;
   background-color: tomato;
   padding: 20px;
   margin: 20px;
 }
 
 .blue {
-  color: grey;
+  color: gray;
   background-color: powderblue;
   padding: 20px;
   margin: 20px;
 }
 
 .yellow {
-  color: grey;
+  color: gray;
   background-color: yellow;
   padding: 20px;
   margin: 20px;
