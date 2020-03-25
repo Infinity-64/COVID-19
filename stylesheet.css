@@ -20,3 +20,18 @@ h6 {
   font-size: 20px;
   text-align: center;
 }
+
+.red {
+  font-color: black;
+  background-color: tomato;
+}
+
+.blue {
+  font-color: green;
+  background-color: powderblue;
+}
+
+.yellow {
+  font-color: blue;
+  background-color: yellow;
+}
