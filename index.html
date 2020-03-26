@@ -5,54 +5,6 @@
 			<meta charset ="utf-8">
 			<title>COVID-19</title>
 			<link href = "stylesheet.css" rel = "stylesheet" />
-			<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Cases/Deaths', 'Amount of People'],
-          ['Cases - New York', 33013],
-          ['Cases - New Jersey', 4402],
-          ['Cases - California', 3158],
-          ['Cases - Washington', 2588],
-          ['Cases - Michigan', 2295],
-	  ['Cases - Other', 23094],
-	  ['Serious - New York', 840],
-	  ['Serious - Ohio', 75],
-	  ['Deaths - New York', 336],
-	  ['Deaths - Other', 708]
-        ]);
-
-        var options = {
-          title: 'Cases, Deaths and Serious in the U.S.',
-          pieHole: 0.4,
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
-        chart.draw(data, options);
-      }
-</script>
-<script type="text/javascript">
-      google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Cases/Deaths', 'Amount of People'],
-          ['Cases', 68550],
-          ['Serious', 915],
-          ['Deaths', 1044]
-        ]);
-
-        var options = {
-          title: 'Cases, Deaths and Serious in the U.S.',
-          pieHole: 0.4,
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
-        chart.draw(data, options);
-      }
-</script>
 		</head>
 		<body>
 			<h1>COVID-19</h1><tr>
@@ -124,6 +76,7 @@
         chart.draw(data, options);
       }
 </script>
+<div id="donutchart" style="width: 900px; height: 500px;"></div>
 <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
@@ -144,6 +97,6 @@
         chart.draw(data, options);
       }
 </script>
-
+<div id="donutchart" style="width: 900px; height: 500px;"></div>
 	</body>
 </html>
