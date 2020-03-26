@@ -76,31 +76,8 @@ function drawChart() {
   chart.draw(data, options);
 }
 </script>
-
-<canvas id="myChart"></canvas>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 			
-<script type="text/javascript">
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
-
-    type: 'doughnuts',
-
-    data: {
-        labels: ['Cases - New York', 'Cases - New Jersey', 'Cases - California', 'Cases - Wahington', 'Cases - Michigan', 'Deaths - New York', 'Deaths - Other'],
-        datasets: [{
-            label: 'Cases and Deaths - U.S.',
-            backgroundColor: 'rgb(0, 0, 0)',
-            borderColor: 'rgb(0, 0, 0)',
-            data: [26430, 3675, 2617, 2469, 17446, 271, 522]
-        }]
-    },
-
-    options: {}
-});
-</script>
-			
-			<h6>Made by Infinity64 using own code and <a target="_blank href ="https://developers.google.com/chart">Google Charts</a>. Thanks for reading! Last updated: 10:36 AM EST 3/25/2020</h6>
+			<h6>Made by Infinity64 using own code and <a target="_blank href" ="https://developers.google.com/chart">Google Charts</a>. Thanks for reading! Last updated: 10:36 AM EST 3/25/2020</h6>
 
 	</body>
 </html>
