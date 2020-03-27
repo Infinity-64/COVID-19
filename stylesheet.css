@@ -16,7 +16,7 @@ h1 {
   position: fixed;
   top: 0;
   height: 100px;
-  width: 200%;
+  width: 100%;
   z-index: 5;
 }
 
