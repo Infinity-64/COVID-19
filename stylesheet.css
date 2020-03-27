@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
 h1 {
@@ -11,10 +11,12 @@ h1 {
   padding: 15px;
   font-weight: 300;
   text-align: center;
-  background-color: blue;
-  height: fit-content;
-  width: fit-screen;
+  overflow: hidden;
+  background-color: #4287f5;
   position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
 }
 
 p {
@@ -22,7 +24,7 @@ p {
 }
 
 h6 {
-  font-color: black;
+  font-color: white;
   font-size: 20px;
   text-align: center;
 }
