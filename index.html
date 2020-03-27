@@ -14,15 +14,13 @@
 				COVID-19 stands for COronaVIrus Disease 2019.<br>
 				One theory is that it all started at a seafood market in Wuhan, China and eventually spread to more and more places, eventually leading to most countries in the world.</p><br>
 			</div>
-			<div class="yellow">
+			<div class="red">
 				<strong><p>How to protect yourself</p></strong>
 					<ul>
 						<li>It is thought to spread when someone that is sick with COVID-19 coughs or you get less than 6 feet away</li>
 						<li>Wash your hands often for at least 20 seconds after using the restroom, coming home, or before eating something</li>
 						<li>Stay as far away as people that are sick with COVID-19 and in the public, stay away from any people, even if it's your best friend</li>
 					</ul>
-			</div>
-			<div class="red">
 				<strong><p>How to protect others if you're sick</p></strong>
 					<ul>
 						<li>Stay home</li>
@@ -31,8 +29,6 @@
 						<li>Stay away from people</li>
 						<li>Stay in a different room at home</li>
 					</ul>
-			</div>
-			<div class="blue">
 				<strong><p>The following types of people are more vulnerable to COVID-19:</p></strong>
 					<ul>
 						<li>Old adults</li>
@@ -65,27 +61,6 @@
 	  ['Serious - Ohio', 75],
 	  ['Deaths - New York', 336],
 	  ['Deaths - Other', 708]
-        ]);
-
-        var options = {
-          title: 'Cases, Deaths and Serious in the U.S.',
-          pieHole: 0.4,
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
-        chart.draw(data, options);
-      }
-</script>
-<div id="donutchart" style="width: 900px; height: 500px;"></div>
-<script type="text/javascript">
-      google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Cases/Deaths', 'Amount of People'],
-          ['Cases', 68550],
-          ['Serious', 915],
-          ['Deaths', 1044]
         ]);
 
         var options = {
