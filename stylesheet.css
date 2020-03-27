@@ -12,9 +12,7 @@ h1 {
   font-weight: 300;
   text-align: center;
   background-color: #4287f5;
-  position: fixed;
   height: 50px;
-  width: 100%;
   z-index: 2;
 }
 
