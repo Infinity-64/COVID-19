@@ -11,13 +11,11 @@ h1 {
   padding: 15px;
   font-weight: 300;
   text-align: center;
-  overflow: hidden;
   background-color: #4287f5;
   position: fixed;
-  top: 0;
   height: 50px;
   width: 100%;
-  z-index: 5;
+  z-index: 2;
 }
 
 p {
