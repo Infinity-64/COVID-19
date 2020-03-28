@@ -20,10 +20,6 @@ h1 {
   padding: 20px;
 }
 
-p {
-  color: white;
-}
-
 h6 {
   font-color: white;
   font-size: 20px;
@@ -57,4 +53,8 @@ h6 {
 .heading {
   font-size: 30px;
   color: #181818;
+}
+
+.bottom {
+  font-color: white;
 }
