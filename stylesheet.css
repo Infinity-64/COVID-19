@@ -1,6 +1,5 @@
 * {
   font-family: verdana;
-  font-color: white;
 }
 
 body {
@@ -22,7 +21,7 @@ h1 {
 }
 
 h6 {
-  font-color: white;
+  color: white;
   font-size: 20px;
   text-align: center;
 }
