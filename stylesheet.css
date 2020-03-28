@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-  color: black;
+  color: white;
 }
 
 h6 {
@@ -31,6 +31,7 @@ h6 {
 }
 
 .red {
+  border-radius: 10px;
   color: #181818;
   background-color: tomato;
   padding: 20px;
@@ -38,6 +39,7 @@ h6 {
 }
 
 .blue {
+  border-radius: 10px;
   color: #181818;
   background-color: powderblue;
   padding: 20px;
@@ -45,6 +47,7 @@ h6 {
 }
 
 .yellow {
+  border-radius: 10px;
   color: #181818;
   background-color: yellow;
   padding: 20px;
