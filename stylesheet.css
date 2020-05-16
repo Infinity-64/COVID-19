@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 h1 {
@@ -59,7 +59,7 @@ h6 {
   font-color: white;
 }
 
-/* width */
+/* Width */
 ::-webkit-scrollbar {
   width: 20px;
   background: #b0c5ff;
