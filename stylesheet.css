@@ -62,6 +62,7 @@ h6 {
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
+  background: #b0c5ff;
 }
 
 /* Track */
